@@ -1,0 +1,722 @@
+
+<!--
+OGOLNE -->a {
+	text-decoration: none;
+	padding: auto;
+}
+
+h1, h2, h3, h4, h5{
+color: #333333;
+font-family: ‘Palatino Linotype’, ‘Book Antiqua’, Palatino, serif;
+
+}
+
+input {
+	margin: 2px;
+	padding: 1px;
+}
+
+input.buttonAdd {
+	background: #363636 url("../image/icon_add.gif") no-repeat right;
+	text-align: right;
+	padding: 3px 15px 3px 3px;
+	color: yellow;
+}
+
+input.buttonAdd:hover {
+	color: red;
+	border-style: inset;
+}
+
+input.buttonCancel {
+	background: #FF0000 url("../image/icon_close.gif") no-repeat right;
+	text-align: center;
+	padding-right: 8px;
+	color: white;
+}
+
+input.buttonCancel:hover {
+	background: #FF0000 url("../image/icon_delete.gif") no-repeat right;
+	color: yellow;
+	text-decoration: underlined;
+	text-weigth: bold;
+	border-style: inset;
+	border: 1px solid black;
+}
+
+input.buttonNavigation {
+	background: #99CC66;
+	text-align: center;
+	color: black;
+}
+
+input.buttonNavigation:hover {
+	background-color: #99FF66;
+	border-style: inset;
+}
+
+input.buttonAction {
+	background: #6666CC url("../image/icon_action.gif") no-repeat right;
+	text-align: center;
+	color: #FFFFCC;
+}
+
+input.buttonAction:hover {
+	color: yellow;
+	border-style: inset;
+}
+
+a.buttonAction {
+	background: #363636 url("../image/icon_action.gif") no-repeat right;
+	text-align: right;
+	padding: 3px 15px 3px 3px;
+	color: yellow;
+}
+
+a.buttonAction:hover {
+	color: red;
+	border-style: inset;
+}
+
+a.buttonFind {
+	background: #363636 url("../image/icon_find.gif") no-repeat right;
+	text-align: right;
+	padding: 3px 20px 3px 3px;
+	color: white;
+	padding: 3px 20px 3px 3px;
+}
+
+a.buttonFind:hover {
+	color: green;
+	border-style: inset;
+}
+
+a.buttonAdd {
+	background: #363636 url("../image/icon_add.gif") no-repeat right;
+	text-align: right;
+	padding: 3px 15px 3px 3px;
+	color: yellow;
+}
+
+a.buttonAdd:hover {
+	color: red;
+	border-style: inset;
+}
+
+input.buttonBack {
+	background: #363636 url("../image/icon_back.gif") no-repeat left;
+	width: 80px;
+	height: 24px;
+	text-align: right;
+	color: white;
+}
+
+input.buttonBack:hover {
+	background-color: #666666;
+	border-style: inset;
+}
+
+select {
+	color: white;
+	background: #444444;
+	box-shadow: #6a3d37 5px 5px 6px;
+}
+
+select.kind {
+	color: white;
+	background: #444444;
+	box-shadow: #6a3d37 5px 5px 6px;
+}
+
+select.kind option {
+	height: 20px;
+}
+
+<!--
+FORMULARZE -->div.form {
+	color:black;
+	margin: 20px auto auto 50px;
+	width: 500px;
+	height: auto;
+	background: #9C9C9C;
+	position: relative;
+	border: 1px solid #262626;
+	background: #9C9C9C url("../image/stoneLight.jpg") repeat fixed right
+		bottom;
+}
+
+div.form textarea {
+	width: 400px;
+	height: 200px;
+	border: 1px solid #000000;
+	background-color: #CCCCCC;
+}
+
+div.form textarea.big {
+	width: 400px;
+	height: 350px;
+}
+	
+div.form h1 {
+	color: black;
+	font-size: 14px;
+	padding: 5px 0 5px 5px;
+	border-bottom: 1px solid #161712;
+	border-top: 1px solid #161712;
+}
+
+div.form label {
+	width: 100%;
+	height: 16px;
+	color: #333333;
+	display: block;
+	border: 1px dashed #666666;
+	padding: 2px;
+}
+
+div.form label span {
+	display: block;
+	color: black;
+	font-size: 12px;
+	float: left;
+	width: 100px;
+	text-align: right;
+	padding: 5px 20px 0 0;
+}
+
+div.form .inputSimple {
+	margin: 1px;
+	color: black;
+	padding: 2px;
+	width: 200px;
+	height: 16px;
+	background: #CFCFCF;
+	border: 1px dotted #4C3C1B;
+	color: black;
+}
+
+div.form .button {
+	margin-top: 10px;
+	margin-left: 150px;
+	-moz-box-shadow: inset 0px -1px 0px 0px #ffffff;
+	-webkit-box-shadow: inset 0px -1px 0px 0px #ffffff;
+	box-shadow: inset 0px -1px 0px 0px #ffffff;
+	background-color: #CCCCCC;
+	-moz-border-radius: 7px;
+	-webkit-border-radius: 7px;
+	border-radius: 7px;
+	border: 1px solid #999966;
+	display: inline-block;
+	color: #4d4d4d;
+	font-family: arial;
+	font-size: 14px;
+	font-weight: bold;
+	padding: 2px 33px;
+	text-decoration: none;
+}
+
+div.form .button:hover {
+	background-color: #dcdcdc;
+	border-style: inset;
+	color: black;
+}
+
+div.form .button:active {
+	position: relative;
+	top: 1px;
+}
+
+div.form .input #buttonLogin {
+	color: red;
+}
+
+<!--
+KALENDARZ -->#calendar {
+	margin: 40px 40px auto 40px;
+	border: 1px dashed #777777;
+	padding: 5;
+}
+
+#calendar a:link,#calendar a:visited {
+	width: auto;
+	height: 50;
+	margin: auto;
+	text-decoration: none;
+	display: block;
+	background-color: #ccc;
+	color: #000;
+	padding: auto;
+	border: 1px solid #888;
+	position: relative;
+	top: 1px;
+}
+
+#calendar a:hover {
+	background-color: white;
+	border-bottom-color: #fff;
+}
+
+#calendar #navigation {
+	color: white;
+	width: auto;
+	height: auto;
+	background: yellow;
+	border-bottom-color: #444444;
+}
+
+#calendar #navigation a {
+	width: auto;
+	height: 20px;
+	color: white;
+	background: #BBBBBB;
+	border-bottom-color: #444444;
+}
+
+#calendar #navigation a:link,#calendar #navigation a:visited {
+	
+}
+
+#calendar #navigation a:hover {
+	color: white;
+	background: #BBBBBB;
+	border-bottom-color: #444444;
+}
+
+#calendar table {
+	display: table;
+	width: 670px;
+	font: 150%/1.5em "Lucida Grande", Geneva, "DejaVu Sans",
+		"Bitstream Vera Sans", AnjaliOldLipi, "Lucida sans", "Trebuchet MS",
+		Arial, Verdana;
+	text-align: center;
+	border: 4px black double;
+	border-spacing: 0;
+	-moz-border-radius: 12px;
+	-moz-box-shadow: #6a3d37 5px 5px 6px;
+	-webkit-border-radius: 12px;
+	-webkit-box-shadow: #6a3d37 5px 5px 6px;
+	border-radius: 12px;
+	box-shadow: #6a3d37 5px 5px 6px;
+	background: #AAAAAA
+}
+
+#calendar th {
+	color: #CCCCCC;
+	font-size: 110%;
+	text-shadow: #6a3d37 2px 2px 2px
+}
+
+#calendar     th:first-of-type {
+	font-weight: bold;
+	font-style: italic
+}
+
+#calendar tr:nth-child(odd) {
+	color: black;
+	background: #888888
+}
+
+#calendar tr:nth-child(even) {
+	color: #111111
+}
+
+#calendar th:first-of-type,#calendar td:first-of-type {
+	padding: 0 0 0 0
+}
+
+#calendar th:last-of-type,#calendar td:last-of-type {
+	padding: 0 0 0 0
+}
+
+#calendar tr:nth-last-child(-n+2) {
+	opacity: .75
+}
+
+#calendar tr:nth-child(2) {
+	text-shadow: #FFCC66 0 0 8px;
+	font-weight: bold;
+	font: 1em/1.5em Verdana, sans-serif;
+	font-size: 18px;
+}
+
+#calendar td {
+	width: 14%;
+}
+
+#calendar span.saturday {
+	color: #888888;
+}
+
+#calendar span.sunday {
+	color: #888888;
+}
+
+#calendar span.today {
+	color: red;
+	font-weight: bold;
+}
+
+#calendar #diaryNote {
+	background: url("../image/icon_pen.gif") no-repeat;
+}
+
+#calendar #diaryAction {
+	background: url("../image/icon_clock.gif") no-repeat 0px 0px;
+}
+
+#calendar #diaryActionPast {
+	background: url("../image/icon_clock_alert.gif") no-repeat 0px 0px;
+}
+
+#calendar #selectList {
+	float: left;
+	color: white;
+	background: #444444;
+	margin: 5;
+	box-shadow: #6a3d37 5px 5px 6px;
+}
+
+<!--
+NOTATKI -->div.note {
+	margin: auto;
+	background: url("../image/icon_note.gif") no-repeat 90px 10px;
+}
+
+div.note #element {
+	width: 670px;
+	height: 100px;
+	margin: auto;
+	background: #FFFF99;
+	border: 1px solid #888;
+	border-radius: 12px;
+	color: #333333;
+}
+
+div.note #element table {
+	margin: 0;
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	border: 1px gray solid;
+	border-spacing: 1;
+}
+
+div.note #element th {
+	text-align: left;
+	border: 1px gray dashed;
+	border-spacing: 1;
+	border: 1px gray dashed;
+}
+
+div.note #element td {
+	text-align: left;
+	border: 1px #ADFF2F dashed;
+	border-spacing: 1;
+	text-align: left;
+}
+
+div.note #element tr.header {
+	height: 10px;
+}
+
+div.note #element th {
+	height: 50px;
+}
+
+div.note #element:hover {
+	background-color: white;
+	border-bottom-color: #fff;
+}
+
+<!--
+KONTAKTY -->div.contact {
+	overflow: auto;
+	height: 600px;
+	margin: auto;
+	background: url("../image/icon_contact.gif") no-repeat 90px 10px;
+	margin: auto;
+}
+
+div.contact #element {
+	float: left;
+	width: 400px;
+	height: 34px;
+	margin: auto;
+	padding: 4px;
+	background: #99CC99;
+	border: 1px solid #888;
+	border-radius: 12px;
+	color: #333333;
+	background: #CCFFFF;
+}
+
+div.contact #element table {
+	margin: 0;
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	border: 1px gray solid;
+	border-spacing: 1;
+}
+
+div.contact #element td {
+	height: 10px;
+	padding: 4px;
+	text-align: left;
+	border: 1px #668B8B dashed;
+	border-spacing: 1;
+	text-align: left;
+}
+
+div.contact #element td.login {
+	background: url("../image/icon_people.gif") no-repeat right;
+	width: 70%;
+	color: #1C1C1C;
+}
+
+div.contact #element td.add {
+	color: green;
+	background: url("../image/icon_add.gif") no-repeat right;
+}
+
+div.contact #element td.delete {
+	background: url("../image/icon_delete.gif") no-repeat right;
+}
+
+div.contact #element td a {
+	color: #333333;
+}
+
+div.contact #element:hover {
+	background-color: white;
+	border-bottom-color: #fff;
+}
+
+<!--
+DRUZYNY -->div.team {
+	margin: auto;
+	background: url("../image/icon_team.gif") no-repeat 90px 10px;
+}
+
+div.team #element {
+	float: left;
+	width: 400px;
+	height: auto;
+	margin: auto;
+	background: #CCCC66;
+	border: 1px solid #888;
+	border-radius: 12px;
+	color: #333333;
+}
+
+div.team #description {
+	float: left;
+	text-align: center;
+	width: 200px;
+	height: 350px; padding 15px;
+	margin: 10px;
+	background: #CCCC99;
+	border: 1px dotted black;
+	color: black;
+}
+
+div.team #element table {
+	margin: 0;
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	border: 1px gray solid;
+	border-spacing: 1;
+}
+
+div.team #element td {
+	height: 10px;
+	text-align: left;
+	border: 1px #668B8B dashed;
+	border-spacing: 1;
+	text-align: left;
+}
+
+div.team #element td.name {
+	background: url("../image/icon_people.gif") no-repeat right;
+	width: 70%;
+	color: #1C1C1C;
+}
+
+div.team #element td.admin {
+	background: url("../image/icon_cup.gif") no-repeat right;
+	width: 70%;
+	color: #1C1C1C;
+}
+
+div.team #element td a {
+	color: #363636;
+}
+
+div.team #element:hover {
+	background-color: white;
+	border-bottom-color: #fff;
+}
+
+<!--
+WYDARZENIA -->div.action {
+	margin: auto;
+}
+
+div.action .event {
+	background: url("../image/icon_event.gif") no-repeat 10px 10px;
+}
+
+div.action .task {
+	background: url("../image/icon_task.gif") no-repeat 10px 10px;
+}
+
+div.action .cal {
+	background: url("../image/icon_calendar.gif") no-repeat 10px 10px;
+}
+
+div.action #element {
+	float: left;
+	width: 600px;
+	height: auto;
+	margin: 5px;
+	background: #99CC99;
+	border: 1px solid #888;
+	color: black;
+}
+
+div.action #element table {
+	margin: 0;
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	border: 1px gray solid;
+	border-spacing: 0px;
+}
+
+div.action #element th {
+	text-align: left;
+	border: 1px #668B8B dotted;
+	border-spacing: 0px;
+	font-weight: normal;
+}
+
+div.action #element th.name {
+	text-align: center;
+	font-weight: bold;
+	color: #1C1C1C;
+	border-color: #003300;
+	border-style: solid;
+}
+
+div.action #element th.description {
+	text-align: center;
+	font-style: italic;
+	color: #1C1C1C;
+	height: 30px;
+	border-color: black;
+}
+
+div.action #element th.date {
+	background: url("../image/icon_clock.gif") no-repeat right;
+}
+
+div.action #element th.datePast {
+	background: url("../image/icon_clock_alert.gif") no-repeat right;
+}
+
+div.action #element th.event {
+	background: url("../image/icon_event_menu.gif") no-repeat right;
+}
+
+div.action #element th.task {
+	background: url("../image/icon_task_menu.gif") no-repeat right;
+}
+
+div.action #element th.team {
+	background: url("../image/icon_team_menu.gif") no-repeat right;
+}
+
+div.action #element th.priority {
+	background: url("../image/icon_cup.gif") no-repeat right;
+}
+
+div.action #element th a {
+	color: #363636;
+}
+
+div.action #element:hover {
+	background-color: #99FF99;
+	border-color: black;
+}
+
+<!--
+DZIENNIK -->div.diary {
+	margin: auto;
+	background: url("../image/icon_diary.gif") no-repeat 90px 10px;
+}
+
+div.invitation {
+	float: left;
+	width: 400px;
+	height: 34px;
+	margin: auto;
+	background: #CCFFFF;
+	border: 1px solid #888;
+	border-radius: 12px;
+	color: #333333;
+}
+
+div.oneContact {
+	padding: 45px;
+	margin: 10 px;
+	width: 120px;
+	height: 200px;
+	border: 1px solid #888;
+	color: black;
+}
+
+div.oneContact span.title {
+	color: #000066;
+	font-weight: bold;
+}
+
+div.messageAlert {
+	color: red;
+	font-style: italic;
+	width: 400px;
+	border-top: 1px dotted #262626;
+	border-bottom: 1px dotted #161712;
+	padding: 2px;
+	text-shadow: 1px 1px 1px rgba(255, 255, 255, .5);
+}
+
+div.messageGood {
+	color: green;
+	font-style: italic;
+	width: 400px;
+	border-top: 1px dotted #262626;
+	border-bottom: 1px dotted #161712;
+	padding: 2px;
+	text-shadow: 1px 1px 1px rgba(255, 255, 255, .5);
+	border-top: 1px dotted #262626;
+}
+
+div.kindOfElement {
+	margin: 10px;
+	margin-left: 40px;
+	color: black;
+	background: #CCFF99;
+	font-style: italic;
+	width: 320px;
+	border: 1px dashed #262626;
+	padding: 5px;
+	font-style: italic;
+}
+
+div.kindOfElement span {
+	font-weight: bold;
+	color: black;
+	padding: 2px;
+	border: 1px dashed red;
+}
